@@ -76,7 +76,7 @@ Requirements:
 - Animated/elegant background
 - [Specific requirements: cards, grid, icons, video, etc.]
 
-Build on top of the existing index.html. Don't touch the previous sections.
+Build on top of the existing index.html. MUST preserve all previous sections unchanged.
 
 ---
 
@@ -94,7 +94,7 @@ Polish the site. Focus on:
 - Micro-animations (subtle movements, glows, shadows)
 - Check that all entrance animations trigger correctly on scroll
 
-Don't break anything that's already working.
+MUST preserve everything that's already working.
 
 ---
 

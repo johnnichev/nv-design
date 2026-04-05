@@ -93,7 +93,7 @@ Create a new `index.html` in the project root that is a **redesign** of this sit
 
 Use the design system we created (`@design-system.html`) as the **source of truth** for all design decisions. Use its fonts, colors, effects, transitions, hero section patterns, buttons — everything from the design system.
 
-Preserve ALL original copy from site.md. Don't change, remove, or add text content.
+Preserve ALL original copy from site.md. MUST keep every word of text content unchanged.
 Reuse images and assets from the original site.
 
 ---

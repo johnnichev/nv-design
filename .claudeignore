@@ -1,5 +1,40 @@
-.git/
-.DS_Store
+# Dependencies
 node_modules/
-LICENSE
-*.lock
+
+# Git
+.git/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+coverage/
+
+# Environment
+.env
+.env.*
+.private/
+
+# Logs
+*.log
+
+# Lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Generated site assets (large binaries)
+*.mp4
+*.webm
+*.mov
+*.zip
+*.tar.gz
+
+# Design system downloads (can be large)
+*.woff2
+*.woff
+*.ttf
+*.eot

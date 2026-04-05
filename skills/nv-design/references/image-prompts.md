@@ -114,7 +114,7 @@ displaying [what's on screen - be specific about UI elements],
 - Always generate prompts in **English** first — most models perform better in English
 - Provide Portuguese translation as a bonus
 - "Imperfections" make images more realistic: "visible pores, freckles", "subtle fingerprints, dust", "natural wrinkles in fabric"
-- Specify what you DON'T want: "no crowded background", "not tropical or touristic", "no artificial lighting"
+- Specify exclusions explicitly: "no crowded background", "not tropical or touristic", "no artificial lighting"
 - Include resolution and aspect ratio: "16:9 aspect ratio, 2K resolution, ultra high definition"
 - Always generate 2+ variations and let the user choose
 - Different models have different strengths — no single model is best for everything

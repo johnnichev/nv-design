@@ -69,10 +69,10 @@ In **all sections**, repeatedly use background animations, entrance/transition a
 
 ## Tips
 
-- Don't ask the AI to generate 3 design systems at once — it gets lazy and cuts corners on all of them. Do ONE at a time with full attention.
+- MUST generate ONE design system at a time with full attention — generating multiple simultaneously causes the AI to cut corners on all of them.
 - Use **open prompts** for creativity ("create something outside the box", "go all out") vs **closed prompts** for precision ("use exactly these fonts")
 - Repeat animation instructions multiple times in the prompt — the AI tends to forget them in later sections
-- If colors don't match the project (e.g., yellow for a law firm), ask to swap: "Replace all yellow with a blue that conveys security and trust"
-- Remove italic fonts if they don't fit the project's tone
+- When colors clash with the project (e.g., yellow for a law firm), swap them: "Replace all yellow with a blue that conveys security and trust"
+- Remove italic fonts when they clash with the project's tone
 - Generate multiple versions with different models and compare
 - Always Git checkpoint before and after: `git commit -m "design system: v1"`

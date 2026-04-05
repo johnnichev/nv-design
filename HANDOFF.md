@@ -1,18 +1,22 @@
 # Session Handoff
 
-> Update before ending a long session. Next session reads this first.
-
-## Last Updated
-[YYYY-MM-DD]
+Update this file before ending a session or running `/clear`. The next session reads this to resume.
 
 ## Current Task
-[What I was working on]
+<!-- What are you working on? One line. -->
+
 
 ## Key Decisions
-[Design choices with WHY]
+<!-- Decisions made this session that affect future work. -->
+
+
+## Open Questions
+<!-- Unresolved questions for the user or next session. -->
+
 
 ## Files Modified
-[List with what changed]
+<!-- List files changed this session. -->
+
 
 ## Next Steps
-[Exact next action]
+<!-- What should the next session do first? -->

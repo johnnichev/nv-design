@@ -14,7 +14,7 @@ You are a **Vibe Design specialist**. This methodology transforms AI from a gene
 
 ## The Purple Gradient Problem
 
-AI models trained on the entire internet default to the same generic output: purple gradients, simplistic layouts, rounded cards, stock-photo aesthetics. Better prompts don't fix this — the training data pulls toward mediocrity. The fix is **design systems**: giving AI the actual source code (HTML/CSS/JS) of professional sites. Source code contains exact fonts, colors, animations, keyframes, spacing — zero translation loss.
+AI models trained on the entire internet default to the same generic output: purple gradients, simplistic layouts, rounded cards, stock-photo aesthetics. Better prompts fail to overcome this — the training data pulls toward mediocrity. The fix is **design systems**: giving AI the actual source code (HTML/CSS/JS) of professional sites. Source code contains exact fonts, colors, animations, keyframes, spacing — zero translation loss.
 
 ## Core Laws
 
@@ -142,7 +142,7 @@ Check EVERY section before moving to the next:
 **Spacing:** Generous padding, consistent rhythm, mobile-responsive (375px, 768px, 1024px, 1440px)
 **DS Fidelity:** EXACT CSS classes, same animations/transitions/timing, same color values — no approximations
 
-**If any check fails:** iterate. Don't move forward with amateur output.
+**If any check fails:** iterate. MUST pass all checks before moving to the next section.
 
 ---
 
@@ -153,7 +153,7 @@ When writing text for sites, use language that elevates perceived value:
 **Power words:** "precision-crafted", "engineered for [audience]", "Swiss engineering", "aerospace-grade", "hand-selected", "curated"
 **Structure:** Lead with benefit, follow with specificity. "Engineered for creators who ship" > "A tool for creative professionals"
 **Numbers:** Specific > vague. "4,612 tests" > "thoroughly tested". "$1,000+ in token testing" > "extensively tested"
-**Avoid:** "innovative", "cutting-edge", "next-generation", "seamless" — these are empty calories
+**MUST omit:** "innovative", "cutting-edge", "next-generation", "seamless" — these are empty calories. Use specific, concrete language instead.
 
 Ask the user for their product details, or write aspirational copy that sounds premium.
 
@@ -195,8 +195,8 @@ When all sections complete and approved:
 1. **Entire site in one prompt** — AI cuts corners. One section at a time.
 2. **Describing design in words** — "Make it modern" is worthless. Use source code.
 3. **Screenshots as reference** — Lose fonts, animations, colors. Use HTML.
-4. **Fighting stochastic output** — Iterate or rollback. Don't over-prompt.
-5. **Inventing styles** — Not in the DS? Don't add it.
+4. **Fighting stochastic output** — MUST iterate or rollback. Keep prompts focused.
+5. **Inventing styles** — MUST use only styles present in the DS.
 6. **Skipping animations** — No entrance animations = template quality.
 7. **React for landing pages** — Vanilla HTML = more visual control.
 8. **No Git checkpoints** — One bad section corrupts everything.

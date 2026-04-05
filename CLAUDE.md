@@ -1,8 +1,9 @@
-# Claude-Specific: nv-design
+# Claude-Specific: nv:design
 
 @AGENTS.md
 @docs/METHODOLOGY.md
 @docs/FAQ.md
+@docs/QUICKSTART.md
 
 ## Session Management
 
@@ -22,3 +23,5 @@ When you make a mistake a rule could have prevented:
 - The $1000 prompt in `references/extract-design-system.md` is SACRED. Read AGENTS.md boundaries before touching it.
 - SKILL.md MUST stay under 250 lines. Run `wc -l skills/nv-design/SKILL.md` after every edit.
 - Each reference file MUST stay under 200 lines.
+- MUST read the capability's reference file BEFORE starting work — SKILL.md routes to the correct one.
+- MUST build one section ("dobra") at a time. Git checkpoint after each.
