@@ -5,14 +5,14 @@ Get from zero to a professional site in under 2 hours.
 ## 1. Install (30 seconds)
 
 ```bash
-npx skills add johnnichev/UltraDesign@ultradesign -g -y
+npx skills add johnnichev/nv-design -g -y
 ```
 
 Or manually:
 ```bash
-git clone https://github.com/johnnichev/UltraDesign.git
-mkdir -p ~/.claude/skills/ultradesign
-cp -r UltraDesign/skills/ultradesign/* ~/.claude/skills/ultradesign/
+git clone https://github.com/johnnichev/nv-design.git
+mkdir -p ~/.claude/skills/nv-design
+cp -r nv-design/skills/nv-design/* ~/.claude/skills/nv-design/
 ```
 
 ## 2. Download a Reference Site

@@ -1,17 +1,13 @@
-# UltraDesign
+# nv:design
 
-Claude Code skill for professional web design using the Vibe Design methodology.
+Professional web design with AI using the Vibe Design methodology.
 
-## Available Skills
+## Skill
 
-- `/ultradesign` — Extract design systems, build landing pages, recombine design references, modernize old sites, and generate professional image prompts. Based on the Asimov Academy "Trilha IA Designer" methodology.
+- `/nv-design` — Extract design systems, recombine them, build landing pages section-by-section, modernize old sites, generate image/video prompts. Auto-detects files in working directory.
 
-## Repo Structure
+## Install
 
-- `skills/ultradesign/SKILL.md` — Main skill entry point (routing + universal rules)
-- `skills/ultradesign/references/` — Capability-specific instructions and prompt templates
-- `docs/` — User-facing documentation (QUICKSTART, METHODOLOGY, FAQ)
-
-## Development
-
-When editing the skill, follow progressive disclosure: SKILL.md stays under 100 lines for routing, reference files contain the detailed instructions. Each reference file is self-contained for its capability.
+```bash
+npx skills add johnnichev/nv-design -g -y
+```

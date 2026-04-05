@@ -1,26 +1,24 @@
 {
-  "name": "ultradesign",
-  "version": "1.0.0",
-  "description": "Professional web design with AI — extract design systems, build landing pages, and modernize sites using the Vibe Design methodology.",
+  "name": "nv-design",
+  "version": "2.0.0",
+  "description": "nv:design — Professional web design with AI. Design system extraction, recombination, landing pages, site modernization, image/video prompts. Vibe Design methodology.",
   "type": "module",
   "keywords": [
-    "vibe-design",
-    "design-system",
-    "landing-page",
     "web-design",
+    "design-systems",
+    "vibe-design",
     "ai-design",
+    "landing-page",
     "claude-code",
     "cursor",
-    "front-end",
-    "css",
-    "html",
-    "animations"
+    "copilot",
+    "nv-design"
   ],
-  "author": "NichevLabs",
+  "author": "johnnichev",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/johnnichev/UltraDesign"
+    "url": "https://github.com/johnnichev/nv-design"
   },
-  "homepage": "https://github.com/johnnichev/UltraDesign"
+  "homepage": "https://github.com/johnnichev/nv-design"
 }

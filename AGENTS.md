@@ -1,22 +1,23 @@
-# UltraDesign
+# nv:design
 
-Claude Code skill for AI-powered professional web design.
+Professional web design for AI coding agents. Works with Claude Code, Cursor, GitHub Copilot, Windsurf, Aider, and Gemini CLI.
 
-## Structure
+## Skill
 
-```
-skills/ultradesign/SKILL.md          → Entry point, routing, universal rules
-skills/ultradesign/references/*.md   → One file per capability (5 total)
-docs/                                → User documentation
+- `nv-design` — Vibe Design methodology. 6 capabilities: extract design systems, recombine, build landing pages, modernize sites, image prompts (7 Principles), video/media.
+
+## Install
+
+```bash
+npx skills add johnnichev/nv-design -g -y
 ```
 
 ## Boundaries
 
 ### Always
-- Keep SKILL.md under 100 lines
+- Keep SKILL.md under 250 lines
 - Keep each reference file under 200 lines
-- Preserve the original "Prompt de Mil Dólares" verbatim in extract-design-system.md
-- Test skill triggers with realistic user prompts
+- Preserve the "Prompt de Mil Dólares" verbatim in extract-design-system.md
 
 ### Never
 - NEVER modify the Extract HTML Design System v2 prompt without explicit approval

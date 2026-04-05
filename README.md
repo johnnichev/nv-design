@@ -1,8 +1,12 @@
-# UltraDesign
+# nv:design
 
 **Professional web design with AI — the methodology that actually works.**
 
-A Claude Code skill that transforms AI from a "beginner intern" into a "senior design agency" by feeding it design systems extracted from source code instead of vague prompts or screenshots.
+```bash
+npx skills add johnnichev/nv-design -g -y
+```
+
+A skill that transforms AI from a "beginner intern" into a "senior design agency" by feeding it design systems extracted from source code instead of vague prompts or screenshots.
 
 > "Bad models + right technique (Design Systems) > Good models + wrong technique (prompts/screenshots)"
 > — Asimov Academy, Trilha IA Designer
@@ -25,7 +29,7 @@ You ask AI to build you a website. It produces:
 
 ## The Solution
 
-UltraDesign uses **Design Systems as source code** — the actual CSS classes, animations, keyframes, and component patterns from professional reference sites — to guide AI with perfect fidelity.
+nv:design uses **Design Systems as source code** — the actual CSS classes, animations, keyframes, and component patterns from professional reference sites — to guide AI with perfect fidelity.
 
 The methodology:
 
@@ -51,26 +55,26 @@ Result: Sites that look like they were built by a senior design agency. In 1-2 h
 
 **Option 1: Skills CLI (recommended)**
 ```bash
-npx skills add johnnichev/UltraDesign@ultradesign -g -y
+npx skills add johnnichev/nv-design -g -y
 ```
 
 **Option 2: One-liner**
 ```bash
-mkdir -p ~/.claude/skills/ultradesign && curl -sL \
-  https://raw.githubusercontent.com/johnnichev/UltraDesign/main/skills/ultradesign/SKILL.md \
-  -o ~/.claude/skills/ultradesign/SKILL.md && \
+mkdir -p ~/.claude/skills/nv-design && curl -sL \
+  https://raw.githubusercontent.com/johnnichev/nv-design/main/skills/nv-design/SKILL.md \
+  -o ~/.claude/skills/nv-design/SKILL.md && \
 for f in extract-design-system recombine-design-systems build-landing-page modernize-site image-prompts; do \
-  mkdir -p ~/.claude/skills/ultradesign/references && curl -sL \
-  "https://raw.githubusercontent.com/johnnichev/UltraDesign/main/skills/ultradesign/references/$f.md" \
-  -o "~/.claude/skills/ultradesign/references/$f.md"; \
+  mkdir -p ~/.claude/skills/nv-design/references && curl -sL \
+  "https://raw.githubusercontent.com/johnnichev/nv-design/main/skills/nv-design/references/$f.md" \
+  -o "~/.claude/skills/nv-design/references/$f.md"; \
 done
 ```
 
 **Option 3: Clone**
 ```bash
-git clone https://github.com/johnnichev/UltraDesign.git
-mkdir -p ~/.claude/skills/ultradesign
-cp -r UltraDesign/skills/ultradesign/* ~/.claude/skills/ultradesign/
+git clone https://github.com/johnnichev/nv-design.git
+mkdir -p ~/.claude/skills/nv-design
+cp -r nv-design/skills/nv-design/* ~/.claude/skills/nv-design/
 ```
 
 **Then open any project and ask Claude:**
@@ -143,7 +147,7 @@ Every professional AI image prompt must address:
 
 ## Methodology Origin
 
-UltraDesign encodes the complete **Trilha IA Designer** methodology from [Asimov Academy](https://hub.asimov.academy/trilha/ia-designer/), taught by Rodrigo Tadewald. The core technique — using source code as design reference instead of images or text — was discovered empirically and validated through the "Prompt de Mil Dólares" (StrackDesignSystemV2), which cost $1,000+ in token testing to optimize.
+nv:design encodes the complete **Trilha IA Designer** methodology from [Asimov Academy](https://hub.asimov.academy/trilha/ia-designer/), taught by Rodrigo Tadewald. The core technique — using source code as design reference instead of images or text — was discovered empirically and validated through the "Prompt de Mil Dólares" (StrackDesignSystemV2), which cost $1,000+ in token testing to optimize.
 
 The methodology covers 5 courses, 38 lessons, and 5+ hours of content distilled into actionable skill instructions.
 
@@ -156,7 +160,7 @@ The methodology covers 5 courses, 38 lessons, and 5+ hours of content distilled 
 ## Skill Structure
 
 ```
-skills/ultradesign/
+skills/nv-design/
 ├── SKILL.md                              # Entry point — routing, universal rules
 └── references/
     ├── extract-design-system.md          # "Prompt de Mil Dólares" — DS extraction
@@ -170,7 +174,7 @@ Progressive disclosure: SKILL.md loads first (~90 lines), reference files load o
 
 ## Contributing
 
-UltraDesign improves when practitioners share what works. Open an issue or PR with:
+nv:design improves when practitioners share what works. Open an issue or PR with:
 - Design system extraction edge cases
 - Prompt improvements that produced better results
 - New reference site patterns

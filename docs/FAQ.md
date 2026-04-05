@@ -13,7 +13,7 @@ For **site building**: any decent model works once you have a good DS. Even chea
 For **creative work** (recombination, deciding layouts): Gemini tends to be more creative; Claude tends to be more precise. Use whichever fits your need.
 
 ### Why not just use a website builder (Wix, Squarespace, etc.)?
-Those tools produce functional but generic-looking sites. UltraDesign produces sites that look like they were built by a senior design agency — with custom animations, micro-interactions, parallax effects, and unique visual identity. The difference is immediately visible.
+Those tools produce functional but generic-looking sites. nv:design produces sites that look like they were built by a senior design agency — with custom animations, micro-interactions, parallax effects, and unique visual identity. The difference is immediately visible.
 
 ### How long does it take to build a complete site?
 1-2 hours for a complete landing page (hero + 4-5 sections + footer). The design system extraction takes 5-10 minutes. Most time is spent on refinement.
