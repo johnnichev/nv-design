@@ -1,0 +1,26 @@
+{
+  "name": "ultradesign",
+  "version": "1.0.0",
+  "description": "Professional web design with AI — extract design systems, build landing pages, and modernize sites using the Vibe Design methodology.",
+  "type": "module",
+  "keywords": [
+    "vibe-design",
+    "design-system",
+    "landing-page",
+    "web-design",
+    "ai-design",
+    "claude-code",
+    "cursor",
+    "front-end",
+    "css",
+    "html",
+    "animations"
+  ],
+  "author": "NichevLabs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnnichev/UltraDesign"
+  },
+  "homepage": "https://github.com/johnnichev/UltraDesign"
+}
