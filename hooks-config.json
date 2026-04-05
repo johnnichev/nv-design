@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "command": "echo \"$TOOL_INPUT\" | grep -qE 'git\\s+push.*(main|master)' && echo 'BLOCKED: Create a PR instead' && exit 2 || true"
+      }
+    ],
+    "PostCompact": [
+      {
+        "command": "head -30 CLAUDE.md 2>/dev/null || true"
+      }
+    ]
+  }
+}

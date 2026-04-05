@@ -1,13 +1,24 @@
-# nv:design
+# Claude-Specific: nv-design
 
-Professional web design with AI using the Vibe Design methodology.
+@AGENTS.md
+@docs/METHODOLOGY.md
+@docs/FAQ.md
 
-## Skill
+## Session Management
 
-- `/nv-design` — Extract design systems, recombine them, build landing pages section-by-section, modernize old sites, generate image/video prompts. Auto-detects files in working directory.
+When context gets heavy (~40 messages or after reading multiple reference files):
+1. Update HANDOFF.md with current progress
+2. `/clear`
+3. Start fresh: "Read HANDOFF.md and continue where I left off"
 
-## Install
+## Compounding Engineering
 
-```bash
-npx skills add johnnichev/nv-design -g -y
-```
+When you make a mistake a rule could have prevented:
+1. Fix the mistake
+2. Add one line to AGENTS.md that prevents it
+
+## Claude-Specific
+
+- The $1000 prompt in `references/extract-design-system.md` is SACRED. Read AGENTS.md boundaries before touching it.
+- SKILL.md MUST stay under 250 lines. Run `wc -l skills/nv-design/SKILL.md` after every edit.
+- Each reference file MUST stay under 200 lines.
