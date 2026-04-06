@@ -8,6 +8,21 @@ npx skills add johnnichev/nv-design -g -y
 
 A skill that transforms AI from a "beginner intern" into a "senior design agency" by feeding it design systems extracted from source code instead of vague prompts or screenshots.
 
+## What It Does
+
+6 capabilities that take you from reference site to deployed landing page in 1-2 hours:
+
+| # | Capability | Trigger | Time |
+|---|-----------|---------|------|
+| 1 | Extract Design System | Have HTML, want visual DNA | 5-10 min |
+| 2 | Recombine Design Systems | Mix 2-3 references | 10-15 min |
+| 3 | Build Landing Page | DS + sections section-by-section | 60-90 min |
+| 4 | Modernize Old Site | Preserve content, redesign visuals | 45-60 min |
+| 5 | Image Prompts (7 Principles) | AI image generation | 5 min/image |
+| 6 | Video/Media | Google Whisk + Flow | 10-20 min |
+
+**Methodology:** Asimov Academy "Trilha IA Designer" — the "$1000 prompt" optimized through $1000+ in token testing.
+
 > "Bad models + right technique (Design Systems) > Good models + wrong technique (prompts/screenshots)"
 > — Asimov Academy, Trilha IA Designer
 
