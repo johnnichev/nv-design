@@ -4,3 +4,4 @@ node_modules/
 *.log
 .claude/settings.local.json
 ULTRACONTEXT_LOG.md
+.private/
